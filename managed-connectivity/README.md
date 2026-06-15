@@ -1,6 +1,6 @@
 # Knowledge Catalog - Managed Connectivity
 
-Managed connectivity lets you import metadata into Knowledge Catalogat scale. A managed connectivity pipeline extracts metadata from your data sources and then imports the metadata into Dataplex. Refer to our official guide at [Managed connectivity overview](https://cloud.google.com/dataplex/docs/managed-connectivity-overview) for more details.  
+Managed connectivity lets you import metadata into Knowledge Catalog at scale. A managed connectivity pipeline extracts metadata from your data sources and then imports the metadata into Knowledge Catalog. Refer to our official guide at [Managed connectivity overview](https://cloud.google.com/dataplex/docs/managed-connectivity-overview) for more details.  
 
 ## Additional Resources
 

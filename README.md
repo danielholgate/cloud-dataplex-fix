@@ -1,18 +1,17 @@
-# Google Cloud Dataplex
+# Knowledge Catalog
 
-This repository contains code and documentation for use with
-[Google Cloud Dataplex](https://cloud.google.com/dataplex/).
+This repository contains code and documentation for use with [Knowledge Catalog(Dataplex)](https://cloud.google.com/dataplex/).
 
 ## Samples in this Repository
- * `agents` provides generative AI-powered agents for automating Dataplex tasks.
- * `datascan` provides samples around Dataplex DataScans.
- * `managed-connectivity` provides code samples and community contributed connectors for Dataplex Managed Connectivity
+ * `agents` provides generative AI-powered agents for automating Knowledge Catalogtasks.
+ * `datascan` provides samples around Knowledge CatalogDataScans.
+ * `managed-connectivity` provides code samples and community contributed connectors for Knowledge Catalog Managed Connectivity
 
 See each directory's README for more information.
 
-## Additional Dataplex Resources
+## Additional Knowledge CatalogResources
 
-You can find more Dataplex resources in these repositories:
+You can find more Knowledge Catalogresources in these repositories:
 
 ### Examples
 * [Dataplex Python examples](https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-dataplex/samples/generated_samples)

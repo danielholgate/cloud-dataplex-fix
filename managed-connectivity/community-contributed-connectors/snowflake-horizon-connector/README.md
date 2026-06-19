@@ -81,7 +81,7 @@ You will perform the following one-time setup steps in your GCP Project:
 <img alt="Aspect Type Creation" src="images/AspectTypeCreation.png" width="600">
 
 3. **Create entry types** for the entries that you want to import. Follow the steps from [here](https://docs.cloud.google.com/dataplex/docs/ingest-custom-sources#create-entry-type) and create the following entry types: **"snowhorizondb"**, **"snowhorizonschema"**, **"snowhorizontable"**, **"snowhorizontag"**, **"snowhorizontagref"**, **"snowhorizonindex"**, **"snowhorizonfunction"**. Please note that these names are not mandatory and can be changed as per your requirements as well just that you will have to change these in the script also. If you want to use the script as it is then please use the names as mentioned above.
-* Navigate to Knowledge Catalog -> Metadata Types -> "Aspect types"
+* Navigate to Knowledge Catalog -> Metadata Types -> "Entry types"
 <img alt="Entry Type Creation 1" src="images/EntryTypeScreen1.png" width="600">
 
 * You will see two options there as shown above:- "Custom" & "System". Under "Custom", click on "+ Create". You will see the following screen, Fill in the details as below(e.g for snowhorizondb):-

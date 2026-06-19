@@ -1,6 +1,6 @@
 # Policy-as-Code Agent
 
-A generative AI-powered agent designed to automate data governance on Google Cloud. It allows users to define, validate, and enforce data policies using natural language queries, translating them into executable code that runs against **Knowledge Catalog (Dataplex)** and **BigQuery** metadata.
+A generative AI-powered agent designed to automate data governance on Google Cloud. It allows users to define, validate, and enforce data policies using natural language queries, translating them into executable code that runs against **Knowledge Catalog (f.k.a Dataplex)** and **BigQuery** metadata.
 
 ## 🚀 Quick Start
 

@@ -10,7 +10,7 @@ The Policy-as-Code Agent is designed to automate and streamline data governance 
 *   **Agentic AI**: Replaces static rules with generative logic. The LLM writes Python policy checks on-the-fly, showcasing advanced reasoning.
 *   **Hybrid Execution**: Combines LLM intent parsing with deterministic Python execution. This eliminates hallucinations during enforcement.
 *   **Intelligent Memory**: Vector-search memory (Firestore) caches and learns successful policies, optimizing latency and cost—a key production pattern.
-*   **Dual-Mode**: Flexible execution against offline GCS exports or live Knowledge Catalog(Dataplex) API, demonstrating versatile integration.
+*   **Dual-Mode**: Flexible execution against offline GCS exports or live Knowledge Catalog API, demonstrating versatile integration.
 
 ### Business (Sales/FSRs)
 *   **Democratized Governance**: Enables non-tech stakeholders to audit data via natural language, removing engineering bottlenecks.
@@ -63,7 +63,7 @@ The agent follows a simple, powerful, five-step process:
     *   **`run_simulation`:** The "engine room." This function takes the Python code from the LLM and executes it against the metadata, collecting and formatting any violations.
     *   **Metadata Sources:** The agent can source metadata from two places:
         *   **GCS Loader:** A utility that can read metadata exports from a Google Cloud Storage (GCS) bucket.
-        *   **Knowledge Catalog(Dataplex) Search:** A tool that directly queries the Knowledge Catalog and fetches full entry details in real-time.
+        *   **Knowledge Catalog(f.k.a Dataplex) Search:** A tool that directly queries the Knowledge Catalog and fetches full entry details in real-time.
 *   **Technology Stack:**
     *   **Primary Language:** Python
     *   **Key Libraries:**
